@@ -1,0 +1,44 @@
+/* BANNER SECTION */
+
+
+.banner {
+	background: linear-gradient($white-gradient, $white-gradient), url(../assets/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__text {
+		text-align: center;
+	}
+
+	&__collection {
+		color: $main-grey;
+		font-size: 2rem;
+		line-height: 1.875
+	}
+
+	&__heading {
+		color: $heading-black;
+		margin-bottom: 62px;
+	}
+
+	&__button {
+		width: 180px;
+		border: 0;
+		background-color: $froly;
+		color: $white;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-top: 23px;
+		padding-right: 42px;
+		padding-bottom: 19px;
+		padding-left: 44px;
+	}
+}
+
+
+

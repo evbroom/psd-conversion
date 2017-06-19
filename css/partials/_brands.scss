@@ -1,0 +1,20 @@
+/* BRANDS SECTION */
+
+.brands {
+	margin-top: 106px;
+	margin-bottom: 100px;
+}
+
+
+.brands-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 730px) {
+	.brands {
+		display: none;
+	}
+}

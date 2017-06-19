@@ -1,0 +1,95 @@
+/* BASE STYLES */ 
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	color: $main-black;
+	font-family: $base-font-family;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $main-black;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+p,
+h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 3.75rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+p {
+	color: $main-grey;
+	font-size: 0.875rem;
+	line-height: 1.714;
+}
+
+footer {
+	border-top: 1px solid $carrera-grey;
+}
+
+.fancy-heading {
+	text-align: center;
+}
+
+.fancy-heading:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background: linear-gradient(to right, $highlight-blue 0%, $highlight-blue 30%, $hint-of-red 30%, $hint-of-red 70%, $highlight-blue 70%, $highlight-blue 100%); 
+	margin: 0 auto;
+	position: relative;
+	top: 12px;
+}
+
+.footer-heading {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 27px;
+}
+
+.footer-heading:after {
+	content:"";
+	display: block;
+	margin-top: 7px;
+	width: 40px;
+	height: 2px;
+	background: $highlight-blue;
+}
+
+@media (max-width: 1096px) {
+
+	footer {
+		border-top: none;
+	}
+}
+
+@media (max-width: 374px) {
+	h1 {
+		font-size: 2.75rem;
+	}
+}

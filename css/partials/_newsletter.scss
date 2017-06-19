@@ -1,0 +1,46 @@
+/* NEWSLETTER SECTION */
+
+.newsletter {
+	margin-top: 88px;
+}
+.newsletter-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 50%;
+	margin: auto;
+}
+
+.newsletter-text {
+	text-align: center;
+	margin-top: 47px;
+	margin-bottom: 70px;
+}
+
+.email-form {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+input[type=email] {
+	width: 71%;
+	border: 0;
+	border-bottom: 1px solid $carrera-grey;
+	padding-top: 11px;
+	padding-bottom: 12px;
+}
+
+.newsletter-icon {
+	position: absolute;
+	right: 15%;
+	top: 25%;
+}
+
+@media (max-width: 768px) {
+
+	.newsletter {
+		margin-top: 24px;
+	}
+}
+

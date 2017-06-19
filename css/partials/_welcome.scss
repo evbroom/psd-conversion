@@ -1,0 +1,50 @@
+/* WELCOME SECTION */
+
+.welcome {
+	margin-top: 113px;
+}
+
+.welcome-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 17%;
+}
+
+.welcome-text {
+	font-size: 1.125rem;
+	color: $highlight-blue;
+}
+
+.welcome-heading {
+	margin-bottom: 57px;
+	text-align: center;
+}
+
+.welcome-leaf {
+	position: absolute;
+	top: 12px;
+	z-index: -10;
+}
+
+.welcome-paragraph {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.author-name {
+	font-size: 1rem;
+	color: $secondary-black;
+	font-weight: bold;
+}
+
+.author-name:after {
+	content: " . ";
+}
+
+.author-title {
+	font-style: italic;
+}
+
